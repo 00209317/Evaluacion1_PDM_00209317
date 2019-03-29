@@ -73,10 +73,31 @@ public class MainActivity extends AppCompatActivity {
         mButton.setOnClickListener(v ->{
             String user = m1.getText().toString();
             String email = m2.getText().toString();
+            String cont1 = mEdi1.getText().toString();
+            String cont2 = mEdi2.getText().toString();
+            String cont3 = mEdi3.getText().toString();
+            String cont4 = mEdi4.getText().toString();
+            String cont5 = mEdi5.getText().toString();
+            String cont6 = mEdi6.getText().toString();
+            String cont7 = mEdi7.getText().toString();
+            String cont8 = mEdi8.getText().toString();
+            String cont9 = mEdi9.getText().toString();
 
             Intent mIntent = new Intent(this, Main2Activity.class);
             mIntent.putExtra("key1", user);
             mIntent.putExtra("key2",email);
+
+            mIntent.putExtra("key3", cont1);
+            mIntent.putExtra("key4",cont2);
+            mIntent.putExtra("key5", cont3);
+            mIntent.putExtra("key6",cont4);
+            mIntent.putExtra("key7", cont5);
+            mIntent.putExtra("key8",cont6);
+            mIntent.putExtra("key9", cont7);
+            mIntent.putExtra("key10",cont8);
+            mIntent.putExtra("key11", cont9);
+
+
             startActivity(mIntent);
 
         });

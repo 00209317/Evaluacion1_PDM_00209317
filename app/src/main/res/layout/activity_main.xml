@@ -13,68 +13,44 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="40dp">
+        android:padding="20dp">
         <TextView
+            android:id="@+id/tx1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Producto 1#"
             android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:id="@+id/tx2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Producto 1#"
             android:padding="10dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:id="@+id/tx3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Producto 1#"
             android:padding="10dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Producto 1#"
-            android:padding="10dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Producto 1#"
-            android:padding="10dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Producto 1#"
-            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -85,32 +61,92 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="40dp">
+        android:padding="20dp">
         <TextView
+            android:id="@+id/tx4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Producto 1#"
             android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tx5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Producto 1#"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:id="@+id/tx6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Producto 1#"
             android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/tx7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Producto 1#"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:id="@+id/tx8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Producto 1#"
             android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tx9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Producto 1#"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -122,9 +158,10 @@
         android:layout_height="wrap_content"
         android:text="usuario"
         android:gravity="left"
-        android:padding="20dp"/>
+        android:padding="5dp"/>
 
     <EditText
+        android:id="@+id/ediuser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="20dp"
@@ -138,6 +175,7 @@
         android:gravity="left"/>
 
     <EditText
+        android:id="@+id/ediemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="20dp"
@@ -145,6 +183,7 @@
 
 
     <Button
+        android:id="@+id/btnsend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Enviar"/>
